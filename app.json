@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "oritiAppTest",
-    "slug": "oritiAppTest",
-    "version": "1.0.0",
+    "name": "IP CH",
+    "slug": "oritipatent",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 12,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.oriti"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "39472993-12d5-4a59-a929-2a836b0687b0"
+      }
     }
   }
 }
